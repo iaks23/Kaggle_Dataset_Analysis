@@ -18,6 +18,8 @@
 
 # Big Query Public Dataset <a name='bigquery'></a>
 
+[BigQuery](https://cloud.google.com/bigquery/docs/introduction) is a fully-managed enterprise data warehouse that helps you manage and analyze your data with built-in features like machine learning, geospatial analysis, and business intelligence. 
+
 The public datasets are datasets that [BigQuery](https://cloud.google.com/bigquery/public-data) hosts for you to access and integrate into your applications. Google pays for the storage of these datasets and provides public access to the data via a project. 
 
 Public datasets are available for you to analyze using either legacy SQL or standard SQL queries. 
