@@ -46,7 +46,8 @@ Ensuring that yoou have `pip` already installed, here are a few other libraries 
 
 💡 These libraries can be installed either directly in your notebook workspace / terminal mode inside the folder where pip is installed using the following command:
 
-```pip install pandas
+```python
+pip install pandas
 ```
 
 # Getting Started <a name='started'></a>
