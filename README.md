@@ -54,6 +54,78 @@ pip install pandas
 
 # Getting Started <a name='started'></a>
 
+> 🚨 Feel free to skip these steps if you are directly working on the dataset on Kaggle. 
+
+The following steps will help you get started on setting up a Google Cloud API and service authentication, both which are required to call databases and tables in your local.
+
+<details>
+  
+  <summary> Step 1: Creating A Service Account </summary>
+  
+  Access the [Google Service Account](https://console.cloud.google.com/projectselector/iam-admin/serviceaccounts/create?supportedpurview=project&_ga=2.119421258.291474639.1638100719-2117592702.1638100719) page fromm your personal/professional ID.
+  
+  ![img]()
+ </details>
+ 
+ <details>
+  
+  <summary> Step 2: Selecting an Existing Project/ Create a New Project </summary>
+  
+  If you're just getting started with the API client, you'll have to create a new project.
+  
+  In the `Service account name` field, enter a name. The Cloud Console fills in the `Service account ID` field based on this name.
+
+  In the `Service account description field`, enter a description. For example, `Service account for quickstart`.
+  
+  Click Create and continue.
+  
+  Click the Select a `role` field.
+
+  Under Quick access, click `Basic`, then click `Owner`.
+  
+  You're done creating a service account for the project!
+  
+  ![img]()
+ </details>
+ 
+ <details>
+  
+  <summary> Step 3: Generate A Secret Client Key </summary>
+  
+  > In the Cloud Console, click the email address for the service account that you created.
+    
+  ![img]()
+  
+  Go to the `keys` tab.
+  
+  ![img]()
+  
+  Click `Add key`, then click `Create new key`.
+  Click `Create`. A `JSON` key file is downloaded to your computer.
+  
+  
+  ![img]()
+ 
+  </details>
+  
+  <details>
+  
+  <summary> Step 4: Setting the environment variable </summary>
+  
+  Before you begin importing the dataset onto your project, ensure the JSON file is in the same folder as the notebook. 
+  
+  You can then set up the authentication and environment variable setting with tbe following command 
+  
+  ```python
+  
+  import os
+  os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="/pathtoJSONFile"
+  
+  ```
+  
+  ### You're all done! ✨
+ </details>
+ 
 
 # Projects <a name='projects'></a>
 
