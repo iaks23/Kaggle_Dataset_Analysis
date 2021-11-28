@@ -1,8 +1,4 @@
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
-
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-pull-requests.svg)](https://forthebadge.com)
-
-# Kaggle Dataset Analysis
+# Kaggle Dataset Analysis 📊
 
 > SQL &amp; Python analysis on Kaggle datasets.
 
@@ -34,8 +30,47 @@ bigquery-public-data.database-name.table-name.
 
 Most of the datasets I've dealt with here are available as CSV files on [Kaggle](https://www.kaggle.com/datasets) as well. I've implemented this on mmy local with the help of Jupyter notebooks and respective libraries. 
 
+# Pre-Requisites <a name='pre-requisite'></a>
+
+To acess and perform analysis on my local system, I have used Jupyter notebooks and a few other Python libraries. 
+
+[Here](https://www.youtube.com/watch?v=iNjXL9KbN4w&t=240s) is a wonderful tutorial I found on how to get started with Anaconda & Jupyter.
+
+Ensuring that yoou have `pip` already installed, here are a few other libraries that you might also require. 
+
+* google-api-python-client
+* google-cloud-bigquery
+* pyarrow (optional)
+* pandas
+* scikit-learn (optional)
+
+💡 These libraries can be installed either directly in your notebook workspace / terminal mode inside the folder where pip is installed using the following command:
+
+```pip install pandas
+```
+
+# Getting Started <a name='started'></a>
 
 
+# Projects <a name='projects'></a>
+
+|SNo|Project Name|Status|
+|---|---|---|
+|1|[Chicago Taxi Trips](https://github.com/iaks23/Kaggle_Dataset_Analysis/tree/main/Chicago_Taxi_Trips)|On-Going|
+
+
+
+# Contribution <a name='contribution'></a>
+
+Have you got an awesome project from an existing Kaggle dataset or wish to add onto mine? 
+
+> To clone this repo into your local system, use the following command on a Command Prompt/Terminal or [Github Desktop](https://desktop.github.com)
+
+```git
+git clone https://github.com/iaks23/Kaggle_Dataset_Analysis.git
+```
+
+Make sure to leave a 🌟 if you found this useful!
 
 
 -----
