@@ -64,7 +64,7 @@ The following steps will help you get started on setting up a Google Cloud API a
   
   Access the [Google Service Account](https://console.cloud.google.com/projectselector/iam-admin/serviceaccounts/create?supportedpurview=project&_ga=2.119421258.291474639.1638100719-2117592702.1638100719) page fromm your personal/professional ID.
   
-  ![img]()
+  
  </details>
  
  <details>
@@ -72,6 +72,8 @@ The following steps will help you get started on setting up a Google Cloud API a
   <summary> Step 2: Selecting an Existing Project/ Create a New Project </summary>
   
   If you're just getting started with the API client, you'll have to create a new project.
+  
+  ![img](https://github.com/iaks23/Kaggle_Dataset_Analysis/blob/main/img/1.png)
   
   In the `Service account name` field, enter a name. The Cloud Console fills in the `Service account ID` field based on this name.
 
@@ -83,28 +85,31 @@ The following steps will help you get started on setting up a Google Cloud API a
 
   Under Quick access, click `Basic`, then click `Owner`.
   
+  ![img](https://github.com/iaks23/Kaggle_Dataset_Analysis/blob/main/img/2.png)
+  
   You're done creating a service account for the project!
   
-  ![img]()
+ 
  </details>
  
  <details>
   
   <summary> Step 3: Generate A Secret Client Key </summary>
   
-  > In the Cloud Console, click the email address for the service account that you created.
+  > In the Cloud Console, click the `email address` for the service account that you created.
     
-  ![img]()
+  ![img](https://github.com/iaks23/Kaggle_Dataset_Analysis/blob/main/img/3.png)
   
   Go to the `keys` tab.
   
-  ![img]()
+  ![img](https://github.com/iaks23/Kaggle_Dataset_Analysis/blob/main/img/3.1.png)
   
   Click `Add key`, then click `Create new key`.
+ 
   Click `Create`. A `JSON` key file is downloaded to your computer.
   
   
-  ![img]()
+  ![img](https://github.com/iaks23/Kaggle_Dataset_Analysis/blob/main/img/3.2.png)
  
   </details>
   
